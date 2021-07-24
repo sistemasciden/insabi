@@ -1,0 +1,2 @@
+<a href="{{ route('patients.show', $id) }}" value="Ver" title="Mostrar detalles del paciente y agregar sesiones de consulta" class="btn btn-sm btn-primary"><i class="fas fa-eye"></i></a>
+<a href="{{ route('patients.edit', $id) }}" value="Editar" title="Editar datos del paciente" class="btn btn-sm btn-warning"><i class="fas fa-pencil-alt"></i></a>
